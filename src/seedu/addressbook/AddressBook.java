@@ -886,7 +886,7 @@ public class AddressBook {
         return String.format(PERSON_STRING_REPRESENTATION,
                 getNameFromPerson(person), getPhoneFromPerson(person), getEmailFromPerson(person));
     }
-
+ 
     /**
      * Encodes list of persons into list of decodable and readable string representations.
      *
